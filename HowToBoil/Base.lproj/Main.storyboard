@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HowToBoil" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eggs-1" translatesAutoresizingMaskIntoConstraints="NO" id="zCg-Lb-fih">
+                                <rect key="frame" x="20" y="52" width="374" height="684"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zCg-Lb-fih" secondAttribute="height" multiplier="187:342" id="MzM-cM-RUO"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="ORC-B0-i6k">
+                                <rect key="frame" x="254" y="81" width="30" height="615"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXy-JR-b4B">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="1">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="234-gq-Chv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAn-a5-DpT">
+                                        <rect key="frame" x="0.0" y="137" width="30" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="2">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lTh-Ax-m7r"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58s-dJ-kUG">
+                                        <rect key="frame" x="0.0" y="274" width="30" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XmT-mR-lxB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gd-GA-DR9">
+                                        <rect key="frame" x="0.0" y="411" width="30" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dgd-3c-Ktr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcf-7f-kRQ">
+                                        <rect key="frame" x="0.0" y="548" width="30" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="5">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZaW-kI-7fp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bAn-a5-DpT" firstAttribute="leading" secondItem="ORC-B0-i6k" secondAttribute="leading" id="QxB-fD-dWF"/>
+                                    <constraint firstAttribute="trailing" secondItem="bAn-a5-DpT" secondAttribute="trailing" id="uTj-MI-VrH"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE YOUR EGG!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSw-bl-wN5" userLabel="eggLabel">
+                                <rect key="frame" x="80" y="811" width="254" height="35"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="hrd-Jn-Fim">
+                                <rect key="frame" x="110" y="81" width="57" height="615"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q63-vV-eFv">
+                                        <rect key="frame" x="0.0" y="0.0" width="57" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="10">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZPt-5b-OxN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzj-t4-hqG">
+                                        <rect key="frame" x="0.0" y="137" width="57" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="9">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RYy-Vu-zAn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYh-uT-wC3">
+                                        <rect key="frame" x="0.0" y="274" width="57" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="8">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JbI-cJ-qSl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwV-wf-jAf">
+                                        <rect key="frame" x="0.0" y="411" width="57" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sue-aY-u1Z"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwf-SW-gi0">
+                                        <rect key="frame" x="0.0" y="548" width="57" height="67"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                        <state key="normal" title="6">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V7a-Jb-z4o"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="t09-oj-5zg">
+                                <rect key="frame" x="20" y="785" width="374" height="4"/>
+                                <color key="progressTintColor" red="1" green="0.36078431370000003" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="trackTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hrd-Jn-Fim" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="2zY-g0-dUq"/>
+                            <constraint firstItem="t09-oj-5zg" firstAttribute="top" secondItem="zCg-Lb-fih" secondAttribute="bottom" constant="49" id="3pQ-D4-WAL"/>
+                            <constraint firstItem="t09-oj-5zg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6M7-GV-BCE"/>
+                            <constraint firstItem="zCg-Lb-fih" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="952-bf-ilw"/>
+                            <constraint firstItem="jSw-bl-wN5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A8r-S3-Qvh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ORC-B0-i6k" secondAttribute="trailing" constant="130" id="AFf-Rv-Plg"/>
+                            <constraint firstItem="ORC-B0-i6k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="AbF-yJ-9yT"/>
+                            <constraint firstItem="jSw-bl-wN5" firstAttribute="top" secondItem="t09-oj-5zg" secondAttribute="bottom" constant="22" id="Ajb-Rn-fOx"/>
+                            <constraint firstItem="t09-oj-5zg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LYG-fR-Vfe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jSw-bl-wN5" secondAttribute="trailing" constant="80" id="LeQ-gr-ujb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t09-oj-5zg" secondAttribute="trailing" constant="20" id="WRZ-hl-jkP"/>
+                            <constraint firstItem="zCg-Lb-fih" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="k1y-X2-c2o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zCg-Lb-fih" secondAttribute="trailing" constant="20" id="qyS-rX-fE5"/>
+                            <constraint firstItem="jSw-bl-wN5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="rpu-iP-E6d"/>
+                            <constraint firstItem="hrd-Jn-Fim" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="yxA-9S-Lrr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="eggLabel" destination="jSw-bl-wN5" id="lXZ-nh-E5k"/>
+                        <outlet property="progressBar" destination="t09-oj-5zg" id="pOB-Rp-vPU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Eggs-1" width="778" height="1760"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
